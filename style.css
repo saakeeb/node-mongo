@@ -1,0 +1,27 @@
+body{
+    
+    background: radial-gradient(circle, rgb(148, 209, 240) 0%,  rgb(124, 213, 240) 20%, rgb(83, 184, 238) 40%,  rgb(49, 183, 245) 60%, rgb(19, 170, 245) 80%, rgb(4, 163, 255) 100%); 
+}
+.container{
+    
+    background-image: linear-gradient(to right, grey , rgb(248, 234, 234), rgb(155, 144, 144));
+    padding: 20px;
+    width: fit-content;
+    margin: 50px 200px;
+    border-radius: 10px;
+}
+input{
+
+    background-color: lightgray;
+    margin: 20px 30px;
+    
+    border-radius: 4px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+    margin: 30px;
+}
+button{
+    margin: 20px 30px;
+}
