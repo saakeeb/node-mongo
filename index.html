@@ -73,7 +73,7 @@
             .then(res => res.json())
             .then(data =>{
                 console.log(data);
-                updateOne(data);
+                update(data);
 
                 // clean
                 document.getElementById('name').value = "";
@@ -89,7 +89,7 @@
 
             })
         })
-        function updateOne(data){
+        function update(data){
            const productContainer = document.getElementsById('product-list');
            appendProduct(product, productContainer);
            document.getElementById('userName').innerText = product.name;
