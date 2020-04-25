@@ -17,6 +17,10 @@ const users = ['Sakib', 'Nazmus', 'Deena', 'Aysha', 'Sayem', 'Sadat', 'Siddika',
 
 
 
+app.get('/', (req, res)=> {
+  res.send('welcome to database'); 
+})
+
 
 app.get('/products', (req, res) => {
   client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true});
